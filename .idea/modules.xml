@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microServiceCloudApi/microServiceCloudApi.iml" filepath="$PROJECT_DIR$/microServiceCloudApi/microServiceCloudApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microServiceCloudConsumerDept/microServiceCloudConsumerDept.iml" filepath="$PROJECT_DIR$/microServiceCloudConsumerDept/microServiceCloudConsumerDept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microServiceCloudEureka/microServiceCloudEureka.iml" filepath="$PROJECT_DIR$/microServiceCloudEureka/microServiceCloudEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microServiceCloudProviderDept/microServiceCloudProviderDept.iml" filepath="$PROJECT_DIR$/microServiceCloudProviderDept/microServiceCloudProviderDept.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springCloud.iml" filepath="$PROJECT_DIR$/springCloud.iml" />
+    </modules>
+  </component>
+</project>
