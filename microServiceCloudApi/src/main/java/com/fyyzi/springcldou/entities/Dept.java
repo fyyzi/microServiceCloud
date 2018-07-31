@@ -1,4 +1,4 @@
-package com.fyyzi.springcldou;
+package com.fyyzi.springcldou.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
