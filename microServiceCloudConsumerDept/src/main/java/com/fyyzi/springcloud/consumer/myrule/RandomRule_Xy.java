@@ -6,18 +6,11 @@ import com.netflix.loadbalancer.ILoadBalancer;
 import com.netflix.loadbalancer.Server;
 
 import java.util.List;
-import java.util.Random;
 
 public class RandomRule_Xy extends AbstractLoadBalancerRule {
 
-    Random random;
-
     private int total = 0;
     private int currentIndex = 0;
-
-    public RandomRule_Xy() {
-        random = new Random();
-    }
 
     public Server choose(ILoadBalancer lb, Object key) {
         if (lb == null) {
@@ -68,7 +61,7 @@ public class RandomRule_Xy extends AbstractLoadBalancerRule {
 
     @Override
     public Server choose(Object key) {
-        return null;
+        return choose(getLoadBalancer(), key);
     }
 
 

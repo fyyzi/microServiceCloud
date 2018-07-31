@@ -10,9 +10,8 @@ public class MySqlfRule {
 
     @Bean
     public IRule getIRule(){
-
-        return new RandomRule();
-
+//        return new RandomRule();
+        return new RandomRule_Xy();
     }
 
 }

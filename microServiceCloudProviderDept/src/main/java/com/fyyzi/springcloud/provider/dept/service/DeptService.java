@@ -1,6 +1,6 @@
 package com.fyyzi.springcloud.provider.dept.service;
 
-import com.fyyzi.springcldou.Dept;
+import com.fyyzi.springcldou.entities.Dept;
 
 import java.util.List;
 

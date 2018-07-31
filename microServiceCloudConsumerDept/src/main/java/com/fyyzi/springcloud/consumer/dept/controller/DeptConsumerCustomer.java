@@ -1,8 +1,7 @@
 package com.fyyzi.springcloud.consumer.dept.controller;
 
-import com.fyyzi.springcldou.Dept;
+import com.fyyzi.springcldou.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
@@ -17,6 +16,7 @@ public class DeptConsumerCustomer {
 
     @Autowired
     private RestTemplate restTemplate;
+
 
 //    @GetMapping(value = "/consumer/dept/discovery")
 //    @LoadBalanced

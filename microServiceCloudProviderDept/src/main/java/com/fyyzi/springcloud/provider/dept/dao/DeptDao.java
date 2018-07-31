@@ -1,6 +1,6 @@
 package com.fyyzi.springcloud.provider.dept.dao;
 
-import com.fyyzi.springcldou.Dept;
+import com.fyyzi.springcldou.entities.Dept;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

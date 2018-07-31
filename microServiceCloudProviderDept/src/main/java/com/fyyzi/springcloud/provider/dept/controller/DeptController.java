@@ -1,6 +1,6 @@
 package com.fyyzi.springcloud.provider.dept.controller;
 
-import com.fyyzi.springcldou.Dept;
+import com.fyyzi.springcldou.entities.Dept;
 import com.fyyzi.springcloud.provider.dept.service.DeptService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +35,6 @@ public class DeptController {
 
     @RequestMapping(value = "/dept/list", method = RequestMethod.GET)
     public List<Dept> list() {
-        logger.info("return");
         return deptService.list();
     }
 
